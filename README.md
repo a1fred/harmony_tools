@@ -15,7 +15,7 @@ Because i'm too lazy to upload to pypi
          [ -e fret end ]
          <gamma name>
 
-## Example
+# Example
 Lets see 0-12 fret f-major gamma on dropped-e tuning
 
 ```
@@ -34,3 +34,7 @@ ____|____|____|____|____|____|____|____|____|____|____|____|____|____|
 
 # CONTRIBUTING
 Feel free to create PR
+
+
+# LICENSE
+MIT
