@@ -10,9 +10,9 @@ Because i'm too lazy to upload to pypi
 
 # Usage
      guitar_gammas
-         [ -t  <string_note> <string_note> ... ]
-         [ -s fret start ]
-         [ -e fret end ]
+         [ -t  <string_note> <string_note> ... ]  # Default tuning is EADGBE
+         [ -s fret start ]                        # Default is 0
+         [ -e fret end ]                          # Default is 24
          <gamma name>
 
 # Example
