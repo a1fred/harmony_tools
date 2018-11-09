@@ -16,8 +16,7 @@ Because i'm too lazy to upload to pypi
          <gamma name>
 
 # Example
-Lets see 0-12 fret f-major gamma on dropped-e tuning
-
+## Lets see 0-12 fret f-major gamma on dropped-e tuning
 ```
 $ python3 main.py F_major -e12 -t D A D G B E
     |   0|   1|   2|   3|   4|   5|   6|   7|   8|   9|  10|  11|  12|
@@ -29,6 +28,17 @@ ____|____|____|____|____|____|____|____|____|____|____|____|____|____|
    5|G   |    |A   |A#  |    |C   |    |D   |    |E   |F   |    |G   |
    6|    |C   |    |D   |    |E   |F   |    |G   |    |A   |A#  |    |
    7|E   |F   |    |G   |    |A   |A#  |    |C   |    |D   |    |E   |
+```
+
+## Lets see all notes on bass guitar standart tuning
+```
+$ python3 main.py all -t E A D G -e20
+    |   0|   1|   2|   3|   4|   5|   6|   7|   8|   9|  10|  11|  12|  13|  14|  15|  16|  17|  18|  19|  20|
+____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|
+   1|E   |F   |F#  |G   |G#  |A   |A#  |B   |C   |C#  |D   |D#  |E   |F   |F#  |G   |G#  |A   |A#  |B   |C   |
+   2|A   |A#  |B   |C   |C#  |D   |D#  |E   |F   |F#  |G   |G#  |A   |A#  |B   |C   |C#  |D   |D#  |E   |F   |
+   3|D   |D#  |E   |F   |F#  |G   |G#  |A   |A#  |B   |C   |C#  |D   |D#  |E   |F   |F#  |G   |G#  |A   |A#  |
+   4|G   |G#  |A   |A#  |B   |C   |C#  |D   |D#  |E   |F   |F#  |G   |G#  |A   |A#  |B   |C   |C#  |D   |D#  |
 ```
 
 
