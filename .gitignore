@@ -1,2 +1,3 @@
 .mypy_cache
 *.py[cod]
+*.egg-info

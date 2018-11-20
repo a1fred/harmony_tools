@@ -1,4 +1,4 @@
-from guitar_gammas import cli
+from harmony_tools import cli
 
 
 if __name__ == "__main__":

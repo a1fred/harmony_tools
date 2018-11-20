@@ -4,12 +4,12 @@ version = '0.1a0'
 
 
 setup(
-    name='guitar_gammas',
+    name='harmony_tools',
     version=version,
-    packages=['guitar_gammas', ],
-    package_dir={'guitar_gammas': 'guitar_gammas'},
+    packages=['harmony_tools', ],
+    package_dir={'harmony_tools': 'harmony_tools'},
     entry_points={
-        'console_scripts': ['guitar_gammas=guitar_gammas.cli:main'],
+        'console_scripts': ['harmony_tools=harmony_tools.cli:main'],
     },
     license='MIT',
     author='a1fred',
