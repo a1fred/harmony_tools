@@ -8,9 +8,8 @@ other coming...
 # Installation
 Clone this repository and run
 ```sh
-$ python3 setup.py install
+$ pip install harmony_tools
 ```
-Because i'm too lazy to upload to pypi
 
 # CONTRIBUTING
 Feel free to create PR

@@ -1,3 +1,5 @@
 .mypy_cache
 *.py[cod]
 *.egg-info
+build
+dist

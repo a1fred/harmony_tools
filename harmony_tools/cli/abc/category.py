@@ -21,4 +21,4 @@ class BaseCategory:
             if c.command == command:
                 return c.handle(**kwargs)
 
-        raise ValueError(command, **kwargs)
+        raise ValueError((command, kwargs))

@@ -33,4 +33,3 @@ B_minor = D_major
 A_minor_pentetonic = [n.C, n.D, n.E, n.G,       n.A]
 
 C_major_pentetonic = [n.C, n.D, n.E, n.F_sharp, n.G, n.A]
-
