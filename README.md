@@ -18,8 +18,8 @@ $ pip install harmony_tools
 Feel free to create PR
 
 ## Development
-Run: `python3 main.py -h`
-Run tests: `make tests`
+Run: `python3 main.py -h`  
+Run tests: `make tests`  
 
 
 # LICENSE
