@@ -1,5 +1,8 @@
 # Harmony tools
-Library with musical harmony objects with basic cli
+Zero-dependencies commandline tool for musical harmony learning  
+
+![](docs/term.png)
+
 
 # Modules
 [guitar](docs/guitar.md) - Quick way to see gamma layout on guitar  
