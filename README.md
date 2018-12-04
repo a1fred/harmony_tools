@@ -4,8 +4,8 @@ Library with musical harmony objects with basic cli
 # Modules
 [guitar](docs/guitar.md) - Quick way to see gamma layout on guitar  
 [gammas](docs/gammas.md) - Some tools for gammas  
-[notes](notes/gammas.md) - Some tools for notes  
-[pentatonics](notes/pentatonics.md) - Some tools for pentatonics  
+[notes](docs/notes.md) - Some tools for notes  
+[pentatonics](docs/pentatonics.md) - Some tools for pentatonics  
 
 
 # Installation
