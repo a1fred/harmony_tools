@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from os import path
 
-version = '0.1b0'
+version = '0.1'
 
 # read the contents of your README file
 this_directory = path.abspath(path.dirname(__file__))
@@ -25,7 +25,7 @@ setup(
         'Environment :: Console',
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS :: MacOS X',
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python :: 3.7',
     ],
     test_suite="tests",
