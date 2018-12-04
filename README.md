@@ -17,5 +17,10 @@ $ pip install harmony_tools
 # CONTRIBUTING
 Feel free to create PR
 
+## Development
+Run: `python3 main.py -h`
+Run tests: `make tests`
+
+
 # LICENSE
 MIT
