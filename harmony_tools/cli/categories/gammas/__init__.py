@@ -2,6 +2,7 @@ from harmony_tools.cli.abc.category import BaseCategory
 
 from harmony_tools.cli.categories.gammas import (
     detect,
+    show,
 )
 
 
@@ -12,4 +13,5 @@ class Category(BaseCategory):
     def get_commands(self):
         return [
             detect.Command(self),
+            show.Command(self),
         ]

@@ -5,7 +5,11 @@ from harmony_tools.cli import categories
 
 
 def main():
-    args = parser.parse_args(sys.argv[1:])
+    run(sys.argv[1:])
+
+
+def run(args):
+    args = parser.parse_args(args)
     kwargs = vars(args)
 
     if kwargs['category'] is None or kwargs['command'] is None:
