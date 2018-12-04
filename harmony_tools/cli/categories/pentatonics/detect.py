@@ -3,7 +3,7 @@ from typing import List
 from harmony_tools import notes, pentatonics
 from harmony_tools.cli.categories.gammas.detect import Command as GDCommand
 
-PENTS = [x for x in dir(pentatonics) if isinstance(getattr(pentatonics, x), list) and not x.startswith("__")]
+PENTS = [x for x in dir(pentatonics) if isinstance(getattr(pentatonics, x), tuple) and not x.startswith("__")]
 
 
 class Command(GDCommand):

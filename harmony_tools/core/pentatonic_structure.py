@@ -1,3 +1,5 @@
+from typing import Tuple
+
 from harmony_tools.core import note_operations
 
 MAJOR_PENTATONIC = (
@@ -17,19 +19,19 @@ MINOR_PENTATONIC = (
 )
 
 
-def create_pentatonic(pentatonic_structure, note: str):
+def create_pentatonic(pentatonic_structure, note: str) -> Tuple[str, ...]:
     assert note in note_operations.notes_seq, f"'{note}' is not note"
     assert pentatonic_structure in [
         MINOR_PENTATONIC,
         MAJOR_PENTATONIC,
     ]
 
-    pentatonic = []
+    pentatonic: Tuple[str, ...] = ()
 
     note_step = note
 
     for step in pentatonic_structure:
-        pentatonic.append(note_step)
+        pentatonic += (note_step, )
         note_step = step(note_step)
 
     return pentatonic

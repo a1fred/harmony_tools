@@ -12,7 +12,7 @@ row = "%s|"
 fgcolor = colors.FG_COLORS[0]
 
 NOTES = [x for x in dir(notes) if isinstance(getattr(notes, x), str) and not x.startswith("__")]
-GAMMAS = [x for x in dir(gammas) if isinstance(getattr(gammas, x), list) and not x.startswith("__")]
+GAMMAS = [x for x in dir(gammas) if isinstance(getattr(gammas, x), tuple) and not x.startswith("__")]
 
 
 class Command(BaseCommand):

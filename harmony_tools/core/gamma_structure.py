@@ -1,3 +1,4 @@
+from typing import Tuple
 from harmony_tools.core import note_operations
 
 
@@ -23,19 +24,19 @@ MINOR_GAMMA = NATURAL_MINOR_GAMMA = (
 )
 
 
-def create_gamma(gamma_structure, note: str):
+def create_gamma(gamma_structure, note: str) -> Tuple[str, ...]:
     assert note in note_operations.notes_seq, f"'{note}' is not note"
     assert gamma_structure in [
         NATURAL_MAJOR_GAMMA,
         NATURAL_MINOR_GAMMA,
     ]
 
-    gamma = []
+    gamma: Tuple[str, ...] = ()
 
     note_step = note
 
     for step in gamma_structure:
-        gamma.append(note_step)
+        gamma += (note_step, )
         note_step = step(note_step)
 
     return gamma
